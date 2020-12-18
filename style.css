@@ -1,0 +1,129 @@
+/* slider main */
+
+	
+#slide {
+    position: absolute;
+width: 100%;
+left: 0;
+}
+#slide .carousel-thumbnails .carousel-indicators img {
+max-width: 100px;
+height: 50px;
+overflow: hidden;
+display: block;
+}
+
+#slide .carousel-thumbnails .carousel-indicators li {
+height: auto;
+max-width: 100px;
+width: 100px;
+border: none;
+box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#slide .carousel-thumbnails .carousel-indicators li.active {
+border-bottom: 4px solid #fff;
+}
+.above-slide {
+color: #fff;
+position: absolute;
+right: 17%;
+bottom: 180px;
+background: rgba(0, 0, 0, 0.3);
+padding: 23px;
+}
+#slide .carousel-indicators {
+
+margin-right: 0;
+margin-left: 0;
+background: rgba(0, 0, 0, 0.3);
+padding: 32px;
+bottom: -19px;
+}
+
+#slide .carousel-thumbnails .carousel-indicators img {
+max-width: 222px;
+height: 115px !important;
+transition: .3s all ease-in-out;
+cursor: pointer;
+}
+#slide .carousel-thumbnails .carousel-indicators li {
+height: 115px;
+max-width: 300px;
+width: 221px;
+}
+
+  #slide  .carousel-item img {
+        width: 100%;
+        height: 535px;
+    }
+.m img{
+width: 221px;
+}
+
+.m:hover img{
+position: relative;
+top: -64px;
+z-index: 8;
+-webkit-transform: translate(68px,-13px);
+transform: translate(68px,-13px);
+}
+
+.test{ 
+display: none !important;
+}
+
+.m:hover .test{
+opacity: 1 !important;
+display: block !important;
+
+}
+.test p {
+color: #000 !important;
+position: relative;
+bottom: 57px;
+font-size: 1.5rem;
+font-weight: bold;
+padding: 1px 5px 2px 1px;
+
+
+}
+.img-thmbn:hover .didden { display: block;}
+
+#slide .carousel-indicators li {
+ opacity: 1;
+}
+
+#slide .carousel-indicators li {
+text-indent: 0 !important;
+}
+
+#slide .carousel-thumbnails .carousel-indicators li.active {
+ border-bottom: none !important;
+}
+
+.text h2:before {
+content: "";
+position: absolute;
+right: 23px;
+bottom: 64px;
+height: 1px;
+width: 50%;
+border-bottom: 2px solid #f60;
+}
+#slide .carousel-control-next-icon, .carousel-control-prev-icon {
+display: inline-block;
+width: 77px;
+height: 77px;
+}
+
+#slide .carousel-control-prev-icon {
+background-image: url("/wp-content/uploads/2020/12/left-arrow.png") !important;
+opacity: 1 !important;
+}
+
+#slide .carousel-control-next-icon {
+background-image: url("/wp-content/uploads/2020/12/right-arrow.png") !important;
+opacity: 1 !important;
+}
+
+/* end slider */
